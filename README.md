@@ -14,4 +14,4 @@ class Email(BaseModel):
     action_items: List[str] = Field(..., description="A list of action items requested by the email")
     topic: str = Field(..., description="High level description of what the email is about")
     tone: ToneEnum = Field(..., description="The tone of the email.")
->
+>>

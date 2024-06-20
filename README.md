@@ -6,7 +6,7 @@ class ToneEnum(str, Enum):
 
 
 class Email(BaseModel):
-    """Relevant information about an email."""
+    """Relevant information about an e-mail."""
 
     sender: Optional[str] = Field(None, description="The sender's name, if available")
     sender_phone_number: Optional[str] = Field(None, description="The sender's phone number, if available")

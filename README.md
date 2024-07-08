@@ -1,6 +1,6 @@
 # sheeer
 sherrrr
-class ToneEnum(str, Enum):
+class ToneEnuum(str, Enum):
     positive = "positive"
     negative = "negative"
 

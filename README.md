@@ -1,7 +1,7 @@
 # sheeer
 sherrrr
 class ToneEnuum(str, Enum):
-    positive = "positive"
+    positive = "positive01"
     negative = "negative"
 
 
